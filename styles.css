@@ -1,0 +1,235 @@
+body {
+    font-family: "Nerko One", cursive;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/4a/4f/6c/4a4f6c72a252fbb46105109f0d9f7151.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav.menu {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav.menu a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Matemasie', sans-serif;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav.menu a:hover {
+    color: #ffcc00;
+}
+
+header {
+    text-align: center;
+    padding: 150px 20px 50px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: 'Matemasie', sans-serif;
+    font-size: 4em;
+    margin: 0;
+    color: #ffcc00;
+    text-shadow: 3px 3px 7px #000000;
+}
+
+header p {
+    font-size: 1.5em;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 1200px;
+    text-align: center;
+}
+
+.content h2 {
+    font-family: 'Matemasie', sans-serif;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px #000000;
+    margin-bottom: 20px;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: "Nerko One", cursive;
+}
+
+.bio-img-container, .gira-img-container {
+    text-align: center;
+    margin: px 0;
+}
+
+.bio-img-container img, .gira-img-container img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.albumes-list, .reconocimientos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px 0;
+}
+
+.album-item, .reconocimiento-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0dvh;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.album-item:hover, .reconocimiento-item:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.album-item img, .reconocimiento-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.album-item p, .reconocimiento-item h3 {
+    color: #ffcc00;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.videos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video-item {
+    margin: 20px;
+    max-width: 360px;
+    flex: 1 1 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.video-item iframe {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.video-item p {
+    padding: 10px;
+    font-size: 1.1em;
+    color: #ffcc00;
+}
+
+form {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+    color: #ffffff;
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+form input[type="submit"] {
+    background-color: #ffcc00;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #000000;
+    color: #ffcc00;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffcc00;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 10px 0 0;
+    font-size: 0.9em;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
